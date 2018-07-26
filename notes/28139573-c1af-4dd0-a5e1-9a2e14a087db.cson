@@ -1,0 +1,35 @@
+createdAt: "2018-07-26T20:08:53.408Z"
+updatedAt: "2018-07-26T21:27:47.423Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "メソッドをそのままコピペしなくてもメソッド名（）；を他のメソッドに入力すれば呼び出すことができる。"
+description: "メソッドをそのままコピペしなくてもメソッド名（）；を他のメソッドに入力すれば呼び出すことができる。"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          // printDataメソッドを呼び出してください
+        printData();
+          
+          
+        }
+        
+        // printDataメソッドを定義してください
+        public static void printData(){
+          System.out.println("私の名前はKate Jonesです");
+          
+        }
+        
+      }
+      
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false

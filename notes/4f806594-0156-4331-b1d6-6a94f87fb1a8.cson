@@ -1,0 +1,34 @@
+createdAt: "2018-07-26T20:10:47.193Z"
+updatedAt: "2018-07-26T21:26:20.876Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "配列のメソッドを作り、outputにて要素を取り出す。"
+description: "配列のメソッドを作り、outputにて要素を取り出す。"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          // 変数namesに、配列を代入してください
+          String [] names = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"};
+          
+          
+          // インデックス番号が0の要素を出力してください
+          System.out.println(names[0]);
+          
+          // インデックス番号が2の要素を出力してください
+          System.out.println(names[2]);
+          
+        }
+      }
+      
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false

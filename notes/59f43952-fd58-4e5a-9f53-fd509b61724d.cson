@@ -1,0 +1,33 @@
+createdAt: "2018-07-26T20:10:28.229Z"
+updatedAt: "2018-07-26T21:26:22.828Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "配列を置き換える"
+description: "配列を置き換える"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+        //Sring 使ってlanguegesを変数に置き換え３つの配列を代入する。
+        String[] languages = {"Ruby","PHP","Python"};
+        //インデックス番号１を配列の中から取り出す。
+        System.out.println(languages[1]);
+        //インデックス番号を０から１に代入し直す
+        languages[1] = "Java";
+        //再びインデックス番号１の状態で出力し直す
+        System.out.println(languages[1]);
+        
+          
+        }
+      }
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false
