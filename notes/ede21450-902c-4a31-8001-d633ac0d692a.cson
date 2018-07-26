@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:11:52.170Z"
-updatedAt: "2018-07-26T21:26:11.696Z"
+updatedAt: "2018-07-26T22:01:59.818Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "switch文を使って１から１０までoutputにて表示させる"
 description: "switch文を使って１から１０までoutputにて表示させる"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {

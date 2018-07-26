@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:12:13.607Z"
-updatedAt: "2018-07-26T21:26:16.591Z"
+updatedAt: "2018-07-26T22:01:48.499Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "swich文を使って運勢を占うおみくじを作る"
 description: "swich文を使って運勢を占うおみくじを作る"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {
