@@ -1,0 +1,31 @@
+createdAt: "2018-07-26T20:09:49.106Z"
+updatedAt: "2018-07-26T21:27:50.572Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "配列のインデックス番号をそれぞれ順番に出力していく"
+description: "配列のインデックス番号をそれぞれ順番に出力していく"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          String[] names = {"にんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
+          
+        //for文を用いてループ処理をさせる
+        for(int i = 0; i < names.length; i++;){
+        //上記でループさせたものを出力させる
+        System.out.println("私の名前は" + names[i]+"です");
+        }
+          
+        }
+      }
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false

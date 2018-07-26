@@ -1,0 +1,43 @@
+createdAt: "2018-07-26T20:06:21.380Z"
+updatedAt: "2018-07-26T21:26:35.141Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "メソッドの戻り値についてテストする。戻り値型のメソッドを作ってmainのメソッドに戻り値を返す"
+description: "メソッドの戻り値についてテストする。戻り値型のメソッドを作ってmainのメソッドに戻り値を返す"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          // fullNameメソッドの結果を変数nameに代入する
+          String name = fullName("Kate","Jones");
+          
+          // printDataの引数をname に書き換える
+          printData(name,27);
+          
+          printData("John Christopher Smith", 65);
+          
+        }
+      
+        public static void printData(String name, int age) {
+          System.out.println("私の名前は" + name + "です");
+          System.out.println("年齢は" + age + "歳です");
+        }
+      
+        // fullNameメソッドを作る
+        public static String fullName(String firstName,String lastName){
+        return firstName+""+lastName;  
+        }
+        
+      }
+      
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false

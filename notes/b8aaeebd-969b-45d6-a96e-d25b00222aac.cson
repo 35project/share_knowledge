@@ -1,0 +1,29 @@
+createdAt: "2018-07-26T20:11:40.128Z"
+updatedAt: "2018-07-26T21:26:14.412Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "for文をつかって１回目から１０回目までループさせる"
+description: "for文をつかって１回目から１０回目までループさせる"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          //forを使って１０から１までのループをつかうfor（変数、処理するないよう、変数の更新）
+          
+          for(int i = 1; i <= 10; i++){
+            //outputでforで処理させたものを表示させる
+            System.out.println(i + "回目のループです");
+          }
+          
+          
+        }
+      }
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false

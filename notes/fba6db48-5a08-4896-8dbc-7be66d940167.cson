@@ -1,0 +1,39 @@
+createdAt: "2018-07-26T20:12:13.607Z"
+updatedAt: "2018-07-26T21:26:16.591Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "swich文を使って運勢を占うおみくじを作る"
+description: "swich文を使って運勢を占うおみくじを作る"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          int number = 13;
+          
+          // defaultを用いて、どのcaseにも合致しない場合の処理を記述してください
+         
+         //switch を使ってcase1とcase2を作る。
+        switch (number % 5){
+          case 1:
+          System.out.println("大吉です");
+          break;
+          case 2:
+          System.out.println("中吉です");
+          break;
+          //defaultをつかってどちらでも無い場合の条件式を作る。
+          default:
+          System.out.println("吉です");
+          break;
+          
+        }
+        }
+      }
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
