@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:06:21.380Z"
-updatedAt: "2018-07-26T21:26:35.141Z"
+updatedAt: "2018-07-26T22:01:04.479Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "メソッドの戻り値についてテストする。戻り値型のメソッドを作ってmainのメソッドに戻り値を返す"
 description: "メソッドの戻り値についてテストする。戻り値型のメソッドを作ってmainのメソッドに戻り値を返す"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {
