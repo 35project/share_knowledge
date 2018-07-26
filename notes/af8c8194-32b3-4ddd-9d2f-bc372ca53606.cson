@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:11:15.249Z"
-updatedAt: "2018-07-26T21:26:18.530Z"
+updatedAt: "2018-07-26T22:01:42.525Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "breakとcontinueを用いることによって強制的に処理をとめたり間の処理だけ止めて処理を続けたりすることができる。"
 description: "breakとcontinueを用いることによって強制的に処理をとめたり間の処理だけ止めて処理を続けたりすることができる。"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {

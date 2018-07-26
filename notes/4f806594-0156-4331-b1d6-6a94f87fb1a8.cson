@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:10:47.193Z"
-updatedAt: "2018-07-26T21:26:20.876Z"
+updatedAt: "2018-07-26T22:01:35.948Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "配列のメソッドを作り、outputにて要素を取り出す。"
 description: "配列のメソッドを作り、outputにて要素を取り出す。"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {
