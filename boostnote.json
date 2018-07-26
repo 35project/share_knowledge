@@ -4,6 +4,11 @@
       "key": "183bccd56c7114047e95",
       "color": "#3FD941",
       "name": "Android"
+    },
+    {
+      "key": "5a6708a84cc60f50131e",
+      "color": "#E10051",
+      "name": "java"
     }
   ],
   "version": "1.0"
