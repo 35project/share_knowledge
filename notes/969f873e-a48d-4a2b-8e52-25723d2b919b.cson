@@ -1,0 +1,37 @@
+createdAt: "2018-07-26T20:07:38.939Z"
+updatedAt: "2018-07-26T21:26:31.356Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "連続して引き数を入力することによって効率を図る"
+description: "連続して引き数を入力することによって効率を図る"
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          // それぞれ年齢に関する引数を順番に入力する。
+          printData("Kate Jones",27);
+          printData("John Christopher Smith",65);
+        }
+        
+      
+        // 年齢に関する引数をを受け取る
+        public static void printData(String name,int age) {
+          System.out.println("私の名前は" + name + "です");
+          // 「年齢は◯◯歳です」と出力する
+          System.out.println("年齢は" + age + "歳です");
+        
+          
+        }
+      }
+      
+    '''
+  }
+]
+tags: [
+  "java"
+]
+isStarred: false
+isTrashed: false
