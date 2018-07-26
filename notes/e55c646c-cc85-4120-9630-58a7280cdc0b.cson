@@ -1,0 +1,59 @@
+createdAt: "2018-07-26T20:12:32.908Z"
+updatedAt: "2018-07-26T20:51:18.760Z"
+type: "SNIPPET_NOTE"
+folder: "5a6708a84cc60f50131e"
+title: "配列の奇数の和と偶数の和をそれぞれ求め、その結果を表示するプログラムを書いてみる"
+description: "配列の奇数の和と偶数の和をそれぞれ求め、その結果を表示するプログラムを書いてみる"
+snippets: [
+  {
+    name: "array.java"
+    mode: "Java"
+    content: '''
+      class Main {
+        public static void main(String[] args) {
+          
+          //input
+          //変数
+          //偶数合計
+          int evenSum = 0;
+          //奇数合計
+          int oddSum = 0;
+          //整数の配列
+          int[] numbers = {1, 4, 6, 9, 13, 16};
+          
+          //process
+          //奇数偶数の合計求めたい
+          //loop
+          for(int index = 0; index < numbers.length; index++){
+            //numbersから値を一個取り出してnumberとして扱う
+            int number = numbers[index];
+            //numberが奇数か偶数かの判定を行う
+            if(number % 2 != 0){
+              //奇数の場合oddSumに足しこむ
+              oddSum += number;
+              
+            } else {
+              //偶数の場合evenSumに足しこむ
+            evenSum += number;
+      
+            }
+            
+          //loop end
+          }
+          
+          
+          
+          //output
+          //結果の出力
+          System.out.println("奇数の和は" + oddSum + "です");
+          System.out.println("偶数の和は" + evenSum +"です");    
+          
+        }
+      }
+      
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
