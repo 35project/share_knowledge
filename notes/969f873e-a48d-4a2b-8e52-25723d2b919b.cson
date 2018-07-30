@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:07:38.939Z"
-updatedAt: "2018-07-26T21:26:31.356Z"
+updatedAt: "2018-07-26T22:01:15.750Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "連続して引き数を入力することによって効率を図る"
 description: "連続して引き数を入力することによって効率を図る"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {

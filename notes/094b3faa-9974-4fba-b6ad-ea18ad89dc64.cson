@@ -1,13 +1,13 @@
 createdAt: "2018-07-26T20:04:54.380Z"
-updatedAt: "2018-07-26T21:26:36.903Z"
+updatedAt: "2018-07-26T22:00:58.399Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "Full name メソッドをもう一つ作り戻り値をmainメソッドに返してあげる。"
 description: "Full name メソッドをもう一つ作り戻り値をmainメソッドに返してあげる。"
 snippets: [
   {
-    name: ""
-    mode: "text"
+    name: "main.java"
+    mode: "Java"
     content: '''
       class Main {
         public static void main(String[] args) {
