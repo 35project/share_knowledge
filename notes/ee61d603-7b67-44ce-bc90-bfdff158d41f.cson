@@ -1,0 +1,64 @@
+createdAt: "2018-07-30T07:02:57.562Z"
+updatedAt: "2018-07-30T07:05:30.307Z"
+type: "MARKDOWN_NOTE"
+folder: "b803c8b726279a9055eb"
+title: "ReactJS Ajax API"
+content: '''
+  # ReactJS Ajax API
+  
+  ```JavaScript
+  /*
+   *
+   * Ajax API Process
+   *
+  */
+  const e = React.createElement;
+  class getData extends React.Component {
+      constructor(props) {
+          super(props);
+          this.state = {
+              error: null,
+              isLoaded: false,
+              items: []
+          };
+      }
+      componentDidMount() {
+          fetch("example.json")// Pathを指定
+              .then(res => res.json())
+              .then(
+              (result) => {
+                  this.setState({
+                      isLoaded: true,
+                  });
+              },
+              (error) => {
+                  this.setState({
+                      isLoaded: true,
+                      error
+                  });
+              }
+          )
+      }
+      render() {
+          const { error, isLoaded } = this.state;
+          if (error) {
+              return <div>Error: {error.message}</div>;
+          } else if (!isLoaded) {
+              return <div>Loading...</div>;
+          } else {
+              console.log(items);
+              return (/* 読み込み後の処理 */);
+          }
+      }
+  }
+  const domContainer = document.querySelector('#data');
+  ReactDOM.render(e(getData), domContainer);
+  ```
+  
+  ```HTML
+  <div id="data"></div>
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
