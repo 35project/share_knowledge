@@ -1,0 +1,60 @@
+createdAt: "2018-07-30T06:17:32.773Z"
+updatedAt: "2018-07-30T06:54:17.977Z"
+type: "MARKDOWN_NOTE"
+folder: "b803c8b726279a9055eb"
+title: "ReactJSの読み込み"
+content: '''
+  # ReactJSの読み込み
+  
+  読み込み
+  ```HTML
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  ```
+  開発用のdevelopment.jsを使用しているので本番環境ではproduction.min.jsを読み込む
+  また、オンラインでの読み込みは非推奨、一度ローカルにファイルをダウンロードしてそれを読み込むようにする
+  
+  ## JSXファイルの使用
+  拡張子jsxファイルを作成し、コンパイルして使用するという手順で進める
+  変換をしない場合下記のコードはh1の箇所でエラーが出る
+  ```JavaScript
+  const element = <h1>Hello, world</h1>;
+  ReactDOM.render(element, document.getElementById('app'));
+  ```
+  
+  以前は変換用のスクリプトJSXTransformerを読み込み、変換する方法であったが現在非推奨になっている
+  ```HTML
+  <!-- 現在非推奨 -->
+  <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
+  <script type="text/jsx;harmony=true">
+      // JSXコード
+  </script>
+  <script src="app.js" type="text/jsx"></script>
+  ```
+  
+  ## Babelの使用
+  現在はBabelを使用するように[公式ブログ](https://reactjs.org/blog/2015/06/12/deprecating-jstransform-and-react-tools.html)で書かれている
+  ```HTML
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  <script src="app.js" type="text/babel"></script>
+  ```
+  タイプ指定もtext/bableにする
+  
+  ## コマンドラインからビルドする方法
+  グローバルにreact-toolsをインストールする
+  ```
+  $ npm install -g react-tools
+  ```
+  
+  コンパイル
+  ```
+  $ jsx --harmony /path /path
+  ```
+  
+  タスクランナーと組み合わせてコンパイルすることも可能
+'''
+tags: []
+isStarred: false
+isTrashed: false

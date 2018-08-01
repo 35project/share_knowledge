@@ -1,0 +1,51 @@
+createdAt: "2018-07-30T02:42:46.759Z"
+updatedAt: "2018-07-30T02:44:23.793Z"
+type: "SNIPPET_NOTE"
+folder: "b803c8b726279a9055eb"
+title: "Hello World"
+description: "Hello World"
+snippets: [
+  {
+    name: "index.html"
+    mode: "HTML"
+    content: '''
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="UTF-8" />
+          <title>Add React in One Minute</title>
+        </head>
+        <body>
+      
+          <h2>Add React in One Minute</h2>
+          <p>This page demonstrates using React with no build tooling.</p>
+          <p>React is loaded as a script tag.</p>
+      
+          <!-- We will put our React component inside this div. -->
+      
+          <div id="app"></div>
+      
+          <!-- Load React. -->
+          <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+          <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+          <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      
+          <!-- Load our React component. -->
+          <script src="function.js"></script>
+      
+        </body>
+      </html>
+    '''
+  }
+  {
+    name: "function.js"
+    mode: "JavaScript"
+    content: '''
+      const element = 'Hello, world';
+      ReactDOM.render(element, document.getElementById('app'));
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
