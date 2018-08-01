@@ -1,0 +1,21 @@
+createdAt: "2018-07-30T00:45:02.261Z"
+updatedAt: "2018-07-30T01:47:54.137Z"
+type: "MARKDOWN_NOTE"
+folder: "523752c6c98d960f69a4"
+title: "文字の色のつけ方としてh1{color:red}/style}"
+content: '''
+  文字の色のつけ方として<style>h1{color:red}<>/style}
+  入力の仕方がある。<head>の部分ににゅうりょくする。
+    
+  またファイルを別のファイルに読みこませる時は<link rel= "stylesheet" href= "ファイル名">を使える。
+    
+  chromeでは右上のアイコンをクリックしてその他のツール→デベロッパツールの順でクリックするとコードを確認できる。
+    
+    color:rgb(0,255,0);r(red),g(green),b(blue)そしてカッコ内は０〜２５５までの色の強さを選べる。１６進数で表現もできる。（00~ff）.例 color:#0000ff;→（00f）と省略することができる。ただしおなじ数字やアルファベットが二つ並んだ時だけ。
+    
+'''
+tags: [
+  "dotinstall_1to3"
+]
+isStarred: false
+isTrashed: false

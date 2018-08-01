@@ -1,5 +1,5 @@
 createdAt: "2018-07-26T20:12:32.908Z"
-updatedAt: "2018-07-26T22:02:13.524Z"
+updatedAt: "2018-07-30T00:17:10.442Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "配列の奇数の和と偶数の和をそれぞれ求め、その結果を表示するプログラムを書いてみる"
@@ -54,6 +54,8 @@ snippets: [
     '''
   }
 ]
-tags: []
+tags: [
+  "java"
+]
 isStarred: false
 isTrashed: false

@@ -1,5 +1,5 @@
 createdAt: "2018-07-26T20:12:13.607Z"
-updatedAt: "2018-07-26T22:01:48.499Z"
+updatedAt: "2018-07-30T00:17:24.379Z"
 type: "SNIPPET_NOTE"
 folder: "5a6708a84cc60f50131e"
 title: "swich文を使って運勢を占うおみくじを作る"
@@ -34,6 +34,8 @@ snippets: [
     '''
   }
 ]
-tags: []
+tags: [
+  "java"
+]
 isStarred: false
 isTrashed: false
