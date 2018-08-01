@@ -1,0 +1,80 @@
+createdAt: "2018-07-30T03:29:53.799Z"
+updatedAt: "2018-07-30T03:34:28.777Z"
+type: "SNIPPET_NOTE"
+folder: "b803c8b726279a9055eb"
+title: "ReactJSによるinputバリデーション"
+description: "ReactJSによるinputバリデーション"
+snippets: [
+  {
+    name: "index.html"
+    mode: "HTML"
+    content: '''
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="UTF-8" />
+          <title>Add React in One Minute</title>
+        </head>
+        <body>
+      
+          <h2>Add React in One Minute</h2>
+          <p>This page demonstrates using React with no build tooling.</p>
+          <p>React is loaded as a script tag.</p>
+      
+          <!-- We will put our React component inside this div. -->
+      
+          <div id="input_email_container"></div>
+      
+          <!-- Load React. -->
+          <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+          <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+          <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      
+          <!-- Load our React component. -->
+          <script src="function.js"></script>
+      
+        </body>
+      </html>
+    '''
+  }
+  {
+    name: "function.js"
+    mode: "JavaScript"
+    content: '''
+      const e = React.createElement;
+      
+      class inputEmail extends React.Component {
+          constructor(){
+              super();
+              this.handleEmailKeyUp = this.keyUpHandler.bind(this, 'emailInput');
+          }
+      
+          keyUpHandler(refName, e) {
+              //console.log(refName);
+              //console.log(e.target.value);
+              if(e.target.value.length >= 60){
+                  alert("Error");
+                  return false;
+              }
+          }
+      
+          render(){
+          return e('input',{
+                      onKeyUp: this.handleEmailKeyUp,
+                      ref: 'emailInput',
+                      type: 'email',
+                      placeholder: 'Email',
+                      maxLength: 60,
+                  }
+              );
+      
+          }
+      }
+      const domContainer = document.querySelector('#input_email_container');
+      ReactDOM.render(e(inputEmail), domContainer);
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
